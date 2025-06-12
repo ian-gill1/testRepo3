@@ -44,14 +44,19 @@
     "props.id": {
       "access": "SYSTEM",
       "persistent": false
+    },
+    "props.lastActivity": {
+      "access": "SYSTEM",
+      "persistent": false
     }
   },
   "props": {
+    "address": "10.4.10.132",
     "device": {},
     "geolocation": {},
     "locale": "en-US",
     "securityLevels": [],
     "theme": "light-cool",
-    "timeZoneId": "America/Los_Angeles"
+    "timeZoneId": "Etc/UTC"
   }
 }

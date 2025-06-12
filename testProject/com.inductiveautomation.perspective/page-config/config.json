@@ -1,52 +1,52 @@
 {
   "pages": {
-    "/charts": {
-      "viewPath": "Page/Charts"
+    "/": {
+      "viewPath": "Page/Home"
     },
     "/alarms": {
       "viewPath": "Page/Alarms"
     },
-    "/": {
-      "viewPath": "Page/Home"
+    "/charts": {
+      "viewPath": "Page/Charts"
     }
   },
   "sharedDocks": {
     "cornerPriority": "top-bottom",
     "left": [
       {
-        "viewPath": "Docks/Menu Vertical",
-        "id": "menu",
-        "viewParams": {},
-        "size": 210,
-        "resizable": false,
-        "iconUrl": "",
-        "modal": false,
-        "show": "onDemand",
         "anchor": "fixed",
-        "content": "cover",
         "autoBreakpoint": 768,
-        "handle": "hide"
+        "content": "cover",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "menu",
+        "modal": false,
+        "resizable": false,
+        "show": "onDemand",
+        "size": 210,
+        "viewParams": {},
+        "viewPath": "Docks/Menu Vertical"
       }
     ],
     "top": [
       {
-        "viewPath": "Framework/Breakpoint",
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
         "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 58,
         "viewParams": {
-          "path": "Header/Header",
           "breakpointLarge": "820",
           "breakpointMedium": "710",
-          "params": {}
+          "params": {},
+          "path": "Header/Header"
         },
-        "size": 58,
-        "resizable": false,
-        "iconUrl": "",
-        "modal": false,
-        "show": "visible",
-        "anchor": "fixed",
-        "content": "push",
-        "autoBreakpoint": 480,
-        "handle": "hide"
+        "viewPath": "Framework/Breakpoint"
       }
     ]
   }
